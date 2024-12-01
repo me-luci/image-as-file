@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steganography Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>File Steganography Tool</h1>
+    <div class="container">
+        <h2>Encode File into Image</h2>
+        <input type="file" id="inputImage" accept="image/*"><br> 
+        <input type="file" id="inputZipFile" accept=".zip"><br>
+        <button id="encodeButton">Encode</button>
+        <h2>Decode File from Image</h2>
+        <input type="file" id="encodedImage" accept="image/*"><br>
+        <button id="decodeButton">Decode</button>
+        <div id="result"></div>
+    </div>
+
+    <footer>
+        <p>Created by Jagadish Chandra Rout</p>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
